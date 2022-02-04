@@ -37,8 +37,8 @@ body{
 }
 #flexpara img{
     width: 35px;
-  
     margin-right: 10px;
+  
 }
 #creator{
     display: flex;
@@ -62,4 +62,5 @@ p{
 #clock{
     position: relative;
     left: 144px;
+    margin-right: 0px;
 }
