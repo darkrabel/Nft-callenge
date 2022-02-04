@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+    background: url();
+}
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    border-radius: 10px;
+    background-color: hsl(217, 54%, 11%);
+    
 }
 #card{
     max-width: 345px;
-    padding: 10px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px;
+    border-radius: 10px;
    
 
 }
@@ -28,7 +36,8 @@ body{
     left: 150px;
 }
 #flexpara img{
-    width: 18px;
+    width: 35px;
+  
     margin-right: 10px;
 }
 #creator{
@@ -38,5 +47,19 @@ body{
 #creator img{
     width: 44px;
     height: 44px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+}
+#header{
+    color: hsl(0, 0%, 100%);
+}
+#haeader{
+    font-size: 25px;
+}
+p{
+    font-size: 18px;
+    
+}
+#clock{
+    position: relative;
+    left: 144px;
 }
