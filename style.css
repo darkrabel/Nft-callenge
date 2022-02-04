@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 10px;
+}
+#card{
+    max-width: 345px;
+    padding: 10px;
+   
+
+}
+#card img{
+    width: 100%;
+}
+#flexpara{
+    display: flex;
+    align-content: space-between;
+}
+#flexpara p {
+    font-size: 18px;
+
+}
+#secandpara{
+    position: relative;
+    left: 150px;
+}
+#flexpara img{
+    width: 18px;
+    margin-right: 10px;
+}
+#creator{
+    display: flex;
+    align-items: center;
+}
